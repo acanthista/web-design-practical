@@ -1,0 +1,7 @@
+body{background:#ffe6e6;font-family:Arial;margin:0}
+nav{background:#cc0000;padding:10px;text-align:center}
+nav a{color:white;margin:10px;text-decoration:none}
+nav a:hover{background:white;color:#cc0000;padding:3px}
+h1{text-align:center;color:#cc0000}
+img{border:3px solid #cc0000}
+p{text-align:center}
