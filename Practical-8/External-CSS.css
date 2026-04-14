@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  font-family:Georgia, serif;
+  background:linear-gradient(to right,#e8dcc7,#d2b48c);
+  text-align:center;
+}
+
+h2{
+  padding:15px;
+  color:#4b3f2f;
+  letter-spacing:2px;
+}
+
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card{
+  margin:15px;
+  padding:10px;
+  background:#f5e6cc;
+  border:1px solid #c2a97a;
+  border-radius:8px;
+  transition:transform .3s, box-shadow .3s;
+}
+
+.card img{
+  width:180px;
+  border-radius:5px;
+}
+
+/* hover effect */
+.card:hover{
+  transform:scale(1.08);
+  box-shadow:0 6px 15px rgba(0,0,0,0.3);
+}
+
+.card p{
+  margin:8px 0 0;
+  color:#3e2f1c;
+  font-weight:bold;
+}
